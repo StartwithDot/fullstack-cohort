@@ -1,1 +1,49 @@
-# Glossary
+# Sprint 1 Glossary
+
+- **Browser:** The program that displays web pages and runs frontend JavaScript.
+- **Client:** The browser side of an application that asks a server for data.
+- **Server:** A program that receives requests and sends responses.
+- **Request:** A message asking a server to do something or provide data.
+- **Response:** The server's answer to a request.
+- **Route:** A server rule for one request path and action, such as `GET /options`.
+- **Endpoint:** A specific route a client can call.
+- **REST:** A common way of designing endpoints around data and actions using HTTP methods.
+- **HTTP method:** The request verb that states the action, such as GET, POST, PUT, or DELETE.
+- **GET:** A request to read data.
+- **POST:** A request to create new data.
+- **PUT:** A request to update existing data.
+- **DELETE:** A request to remove data.
+- **CRUD:** The four basic data actions: create, read, update, and delete.
+- **Frontend:** The HTML, CSS, and JavaScript that people see and use in the browser.
+- **Backend:** The server code that receives requests and works with the database.
+- **DOM:** The browser's in-memory representation of the page that JavaScript can change.
+- **Event:** Something the browser notices, such as a button click or form submission.
+- **fetch:** Browser JavaScript used to send a request to a server.
+- **Node.js:** A program that runs JavaScript outside the browser.
+- **npm:** Node's package manager, used to download project packages.
+- **package.json:** A project file that records its Node packages and commands.
+- **Express:** A Node.js library that makes server routes easier to write.
+- **Database:** An organized place where the app stores data beyond a page refresh or server restart.
+- **MySQL:** The database program used for Sprint 1.
+- **SQL:** The language used to ask MySQL to read or change data.
+- **mysql2:** The Node package that lets Express code send SQL to MySQL.
+- **Table:** A database collection of related data arranged in rows and columns.
+- **Row:** One stored item in a table, such as one poll option.
+- **Column:** One kind of value in every row, such as `label` or `votes`.
+- **Schema:** The planned shape of a database table: its columns and rules.
+- **Primary key:** A column whose unique value identifies one row; Poll Maker uses `id`.
+- **Auto-increment:** A database rule that gives a new row the next numeric ID.
+- **SELECT:** SQL that reads rows.
+- **INSERT:** SQL that adds a row.
+- **UPDATE:** SQL that changes a row.
+- **DELETE (SQL):** SQL that removes a row.
+- **Validation:** Checking input before saving it, such as rejecting a duplicate label.
+- **localStorage:** Browser storage that remains after refresh but belongs only to that browser.
+- **Polling:** Repeating a request every few seconds to check for new data.
+- **CORS:** A browser safety rule that can block a page from requesting a different server address.
+- **Port:** The number after a server address that directs a request to a particular program, such as `localhost:3000`.
+- **Git:** A tool that records file history as commits.
+- **GitHub:** A website that stores Git repositories and pull requests.
+- **Branch:** A separate line of work in Git.
+- **Commit:** A named saved checkpoint of selected file changes.
+- **Pull request:** A request to review and merge a branch's changes.
